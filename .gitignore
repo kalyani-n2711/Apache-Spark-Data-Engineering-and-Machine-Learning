@@ -1,0 +1,44 @@
+# Build & Compilation Outputs
+target/
+project/target/
+project/project/
+.bsp/
+.scala-build/
+.bloop/
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated Assignment Outputs & Spark Runtime Artifacts
+outputs/
+**/outputs/
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+*.orc
+*.tmp
+*.log
+
+# Temporary & Packaged Archives
+*.zip
+*.tar.gz
+
+# IDE & Editor Files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.metals/
+.classpath
+.project
+.settings/
+
+# Python & OS Cache Files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+desktop.ini
